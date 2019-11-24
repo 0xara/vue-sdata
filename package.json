@@ -91,7 +91,6 @@
     }
   },
   "dependencies": {
-    "js-helpers": "git+https://git@gitlab.com/arasharg/js-helpers.git"
   },
   "//": {
     "js-helpers": "git+https://git@gitlab.com/arasharg/js-helpers.git"

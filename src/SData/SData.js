@@ -4,7 +4,7 @@ function isNan(val) {
 }
 
 class SData {
-    constructor({ name }) {
+    constructor({ name, id }) {
         const data = window[name] || {};
 
         this.originalData = data;
@@ -17,7 +17,7 @@ class SData {
             window[name] = undefined;
         }
 
-        const jsEl = document.getElementById('js');
+        const jsEl = document.getElementById(id);
 
         if(jsEl) jsEl.parentElement.removeChild(jsEl);
     }

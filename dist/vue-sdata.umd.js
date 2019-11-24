@@ -14,7 +14,8 @@
 
     var SData = function () {
         function SData(_ref) {
-            var name = _ref.name;
+            var name = _ref.name,
+                id = _ref.id;
 
             _classCallCheck(this, SData);
 
@@ -30,7 +31,7 @@
                 window[name] = undefined;
             }
 
-            var jsEl = document.getElementById('js');
+            var jsEl = document.getElementById(id);
 
             if (jsEl) jsEl.parentElement.removeChild(jsEl);
         }

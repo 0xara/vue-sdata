@@ -13,8 +13,9 @@
     }
 
     var SData = function () {
-        function SData(_ref) {
-            var name = _ref.name,
+        function SData() {
+            var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+                name = _ref.name,
                 id = _ref.id;
 
             _classCallCheck(this, SData);

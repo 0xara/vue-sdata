@@ -12,7 +12,7 @@ class SData {
         this._setData(data);
 
         try {
-            delete window[name];
+            if (name) delete window[name];
         } catch(e) {
             window[name] = undefined;
         }
